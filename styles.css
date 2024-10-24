@@ -1,1 +1,94 @@
+img{
+	height:100px;
+	width:100px;
+}
+.Name{
+	display:flex;
+	
+}
+.Para{
+	/* display:block; */
+	margin:-12px 30px 0px 40px ;
+	font-size:12px;
+	
+}
+
+.Aboutme{
+	float:right;
+    position: absolute;
+	right:-10px;
+	top: -19px;
+	width:50%
+	
+}
+.para2{
+	color:gray;
+}
+h2{
+	text-decoration:underline;
+	
+	/* padding:5px; */
+	/* line-height:5px; */
+}
+
+
+.container{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skill-icon {
+            font-size: 20px; /* Adjust icon size */
+            margin-right: 15px; /* Space between icon and text */
+        }
+        .skill-name {
+            flex: 1; /* Take up remaining space */
+        }
+        .progress-bar-container {
+            width: 300px;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+           position:absolute;
+	       top:40px;
+            height: 5px; 
+        }
+        .progress-bar {
+            height: 100%;
+            background-color: #43b0f1;
+            width: 0; /* Initial width */
+            line-height: 20px; /* Align text vertically */
+            color: white; /* Text color */
+            text-align: center; /* Center text */
+            transition: width 0.5s ease; /* Smooth transition for width */
+        }
+
+.skills{
+	display:flex;
+	position:absolute;
+     top:120px;
+	padding:15px
+}
+
+.para-3{
+	position:absolute;
+	bottom:8px;
+	right:20px;
+	font-size:10px
+}
+
+h3{
+	position:absolute;
+	bottom:40px;
+}
+
+.skill-name{
+	font-size:7px
+}
 
